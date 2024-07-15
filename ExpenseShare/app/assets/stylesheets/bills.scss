@@ -1,0 +1,226 @@
+.eachbill {
+    max-width: 520px;
+    min-width: 200px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-bottom: 1px lightgrey solid;
+}
+
+.allbills {
+    display: flex;
+    flex-direction: column;
+    z-index: 20;
+
+}
+.description {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 10px;
+    width: 100px;
+    margin-top: 6px;
+}
+.description:hover {
+    text-decoration: underline;
+}
+.date {
+    margin-right: 10px;
+    color: grey;
+    width: 100px;
+    display: flex;
+   
+}
+
+.delete {
+    font-size: 24px;
+    height: 18px;
+    color: #CC4456; 
+}
+.delete:hover {
+    text-decoration: underline;
+}
+
+.billshow {
+    display: flex;
+    align-items: flex-start;
+ 
+
+}
+.lefttwo {
+    display: flex;
+}
+.billflex {
+display: flex;
+flex-direction: row;
+font-size: 13px;
+font-weight: lighter;
+}
+.balance {
+    font-size: 12px;
+    width: 100px;
+    color: rgb(68, 67, 67);
+    line-height: 15px;
+}
+
+.positive {
+   
+    color: #5bc5a7;
+    font-weight: bold;
+    font-size: 16px;
+}
+.negative {
+   
+    color: #ff652f;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.Uncategorized {
+     background: image_url('general.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    z-index: 2;
+}
+.Home {
+     background: image_url('mortgage.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    margin-left: 10px;
+}
+.Life {
+     background: image_url('music.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    z-index: 2;
+}
+.Utilities {
+     background: image_url('electricity.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    margin-left: 10px;
+}
+.Transportation {
+     background: image_url('taxi.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    margin-left: 10px;
+}
+.Food.and.Drink {
+    background: image_url('dining-out.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    z-index: 2;  
+    margin-left: 10px;
+}
+.Uncategorized2 {
+     background: image_url('general.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 100px;
+    z-index: 2;
+     margin: 20px;
+    margin-right: 40px;
+    border: 2px white solid;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+.Uncategorized2:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+.Home2 {
+    background: image_url('mortgage.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 100px;
+    z-index: 2;
+     margin: 20px;
+    margin-right: 40px;
+    border: 2px white solid;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+.Home2:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+.Life2 {
+    background: image_url('music.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 100px;
+    z-index: 2;
+     margin: 20px;
+    margin-right: 40px;
+    border: 2px white solid;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+.Life2:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+.Utilities2 {
+    background: image_url('electricity.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 100px;
+    z-index: 2;
+     margin: 20px;
+    margin-right: 40px;
+    border: 2px white solid;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+.Utilities2:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+.Transportation2 {
+    background: image_url('taxi.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 100px;
+    z-index: 2;
+    margin: 20px;
+    margin-right: 40px;
+    border: 2px white solid;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+.Transportation2:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+.Food.and.Drink2 {
+    background: image_url('dining-out.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 100px;
+    z-index: 2; 
+     margin: 20px;
+    margin-right: 40px;
+    border: 2px white solid;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+.Food.and.Drink2:hover {
+    box-shadow: 0 0px 1px rgba(0,0,0,0.5);
+}
