@@ -1,17 +1,7 @@
 ## README
 
-# Welcome to Splicewise
-
-SpliceWise is a app designed to simplify the process of splitting bills with friends. It was designed as a clone of the common bill splitting website, Splitwise. Keep track of all of your expenses and IOUs in one place and never have to deal with the awkward conversation of reminding friends or family to pay you back again. Best of all, Splicewise is and always will be completely free!
-
-[Live Site!](https://splicewise.herokuapp.com/#/)
-
-![alt text](https://github.com/emmad5/Splicewise/blob/master/app/assets/images/screenshot.png)
-
-## Technologies
-* [Splicewise](https://splicewise.herokuapp.com/#/) was written using Ruby on Rails and Javascriopt. The frontend was built using React as the library and Redux as the framework. 
-
-## Key Features
+# Welcome to ExpenseShare
+ExpenseShare is a app designed to simplify the process of splitting bills with friends.Keep track of all of your expenses and IOUs in one place and never have to deal with the awkward conversation of reminding friends or family to pay you back again. Best of all, it is and always will be completely free!
 
 ### User Authentication
 * Users can create accounts or sign into existing accounts. 
@@ -19,7 +9,7 @@ SpliceWise is a app designed to simplify the process of splitting bills with fri
 * Errors messages are displayed to prevent incorrect logging in or signing up. 
 
 ### Bills
-* Create a bill with another user and specify the amount. Splicewise will do the heavy lifting of dividing your expenses and notifying each user of the amount that they owe.
+* Create a bill with another user and specify the amount.  will do the heavy lifting of dividing your expenses and notifying each user of the amount that they owe.
 * Describe the nature of the bill with a description and select a category to inclue a descriptive icon.
 * Select which user paid for the bill and submit to update the total amount that you owe and are owed. 
 
@@ -34,4 +24,4 @@ SpliceWise is a app designed to simplify the process of splitting bills with fri
 * Recent Activity - Show all of your recent transactions in one place.
 * Comments - Comment on bills to discuss the expense or just chat with friends!
 
-![alt text](https://github.com/emmad5/Splicewise/blob/master/app/assets/images/screenshot2.png)
+
